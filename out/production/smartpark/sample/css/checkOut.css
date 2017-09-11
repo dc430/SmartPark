@@ -1,0 +1,36 @@
+@font-face {
+    font-family:'Anton';
+    src: url('Anton-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.root {
+    -fx-background-color: black;
+}
+#checkOut {
+    -fx-background-color: white;
+    -fx-text-fill: #0077c2;
+    -fx-font-family: 'Anton';
+    -fx-font-size: 20px;
+}
+#checkOut:hover {
+    -fx-background-color: #0077c2;
+    -fx-text-fill: white;
+}
+#charge {
+    -fx-text-fill: #da0014;
+    -fx-font-family: 'Anton';
+    -fx-font-size: 23px;
+}
+#back {
+    -fx-font-size: 27px;
+    -fx-font-family: 'Anton';
+    -fx-text-fill: #0077c2;
+    -fx-background-color: white;
+    -fx-opacity: 0.70;
+}
+#back:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #0077c2;
+    -fx-opacity: 1;
+}

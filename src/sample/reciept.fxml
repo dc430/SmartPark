@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.checkIn">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="552.0" layoutX="380.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="565.0" />
+      <Label fx:id="reciept" layoutX="617.0" layoutY="61.0" text="Reciept" />
+      <Label fx:id="reciept" layoutX="463.0" layoutY="157.0" prefHeight="46.0" prefWidth="226.0" text="Vehicle Type :" />
+      <Label fx:id="reciept" layoutX="463.0" layoutY="236.0" prefHeight="46.0" prefWidth="226.0" text="Vehicle Number :" />
+      <Label fx:id="reciept" layoutX="463.0" layoutY="314.0" prefHeight="46.0" prefWidth="189.0" text="Time Entered :" />
+      <Label fx:id="reciept" layoutX="463.0" layoutY="384.0" prefHeight="46.0" prefWidth="107.0" text="Date :" />
+      <Label fx:id="type" layoutX="743.0" layoutY="161.0" prefHeight="46.0" prefWidth="197.0" />
+      <Label fx:id="number" layoutX="743.0" layoutY="236.0" prefHeight="46.0" prefWidth="197.0" />
+      <Label fx:id="t" layoutX="743.0" layoutY="314.0" prefHeight="46.0" prefWidth="197.0" />
+      <Label fx:id="d" layoutX="743.0" layoutY="384.0" prefHeight="46.0" prefWidth="197.0" />
+      <JFXButton fx:id="r" layoutX="491.0" layoutY="508.0" onAction="#init" prefHeight="59.0" prefWidth="343.0" text="Click here to generate the reciept" textFill="#a66d3f">
+         <font>
+            <Font name="Anton Regular" size="22.0" />
+         </font>
+      </JFXButton>
+      <Button fx:id="back" layoutX="75.0" layoutY="32.0" mnemonicParsing="false" onAction="#back" prefHeight="59.0" prefWidth="117.0" text="⇐ Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+@font-face {
+    font-family:'Anton';
+    src: url('Anton-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.root {
+    -fx-background-color: #3B1313;
+    -fx-font-family: 'Anton';
+}
+#fourWheeler, #twoWheeler {
+    -fx-background-color: #3B1313;
+    -fx-text-fill: white;
+    -fx-opacity: 0.70;
+    -fx-font-family: 'Anton';
+    -fx-font-size: 20px;
+}
+#fourWheeler:hover, #twoWheeler:hover {
+    -fx-opacity: 1;
+
+}
+#fourWheeler:selected, #twoWheeler:selected {
+
+    -fx-background-color: white;
+    -fx-text-fill: #3B1313;
+    -fx-opacity: 1;
+}
+#car {
+    -fx-background-image: url("#WHITEfrontsolidcar.png");
+}
+#vehicleNumber, #date, #time {
+    -fx-font-size: 23px;
+    -fx-text-fill: #A66D3F;
+}
+#spotSelection {
+    -fx-font-size: 28px;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-radius: 10px;
+    -fx-border: 3px;
+}
+#spotSelection:hover {
+    -fx-text-fill: #3B1313;
+    -fx-background-color: white;
+}
+#back {
+    -fx-background-color: #3B1313;
+    -fx-text-fill: #A66D3F;
+    -fx-font-family: 'Anton';
+    -fx-font-size: 22px;
+    -fx-opacity: 0.65;
+}
+#back:hover {
+    -fx-background-color: #A66D3F;
+    -fx-text-fill: #3B1313;
+    -fx-opacity: 1;
+}

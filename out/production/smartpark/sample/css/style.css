@@ -1,0 +1,29 @@
+@font-face {
+    font-family:'Anton';
+    src: url('Anton-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.root {
+    -fx-background-color: #3B1313;
+}
+#checkIn, #checkOut {
+    -fx-text-fill: #A66D3F;
+    -fx-opacity: 0.75;
+    -fx-background-color: #3B1313;
+}
+#checkIn:hover, #checkOut:hover {
+    -fx-opacity: 1;
+}
+#logOut {
+    -fx-background-color: #3B1313;
+    -fx-text-fill: #A66D3F;
+    -fx-font-family: 'Anton';
+    -fx-font-size: 22px;
+    -fx-opacity: 0.65;
+}
+#logOut:hover {
+    -fx-background-color: #A66D3F;
+    -fx-text-fill: #3B1313;
+    -fx-opacity: 1;
+}

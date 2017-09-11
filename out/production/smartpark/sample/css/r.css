@@ -1,0 +1,31 @@
+@font-face {
+    font-family:'Anton';
+    src: url('Anton-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.root {
+    -fx-background-color: #3B1313;
+}
+#reciept {
+    -fx-font-size: 30px;
+    -fx-font-family: 'Anton';
+    -fx-text-fill: #A66D3F;
+}
+#t, #d, #type, #number {
+    -fx-font-family: sans-serif;
+    -fx-font-size: 28px;
+    -fx-text-fill: aliceblue;
+}
+#back {
+    -fx-font-size: 27px;
+    -fx-font-family: 'Anton';
+    -fx-text-fill: #A66D3F;
+    -fx-background-color: #3B1313;
+    -fx-opacity: 0.70;
+}
+#back:hover {
+    -fx-text-fill: #3B1313;
+    -fx-background-color: #A66D3F;
+    -fx-opacity: 1;
+}

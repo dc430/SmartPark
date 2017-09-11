@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="smartpark:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/smartpark_jar</output-path>
+    <root id="archive" name="smartpark.jar">
+      <element id="module-output" name="smartpark" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/mysql-connector-java-5.1.41-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jfoenix.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
